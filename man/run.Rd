@@ -15,3 +15,8 @@ run(path, ...)
 Installs an R package provided as a tarball, installs its dependencies,
 and runs the package's `main()` function.
 }
+\examples{
+\dontrun{
+run('myapp_0.1.0.tar.gz')
+}
+}

@@ -17,7 +17,7 @@ install.packages("run")
 Suppose your application has been packaged as `myapp_0.1.0.tar.gz`. To run your application,
 run the following from the shell:
 
-``` r
-Rscript -e "run::run('myapp_0.1.0.tar.gz')"
+``` console
+foo@bar:~$ Rscript -e "run::run('myapp_0.1.0.tar.gz')"
 ```
 
