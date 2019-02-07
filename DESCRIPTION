@@ -1,0 +1,13 @@
+Package: run
+Title: Run an R Application
+Version: 0.0.0.9000
+Authors@R: person("David", "Lindelöf", email = "dlindelof@expediagroup.com", role = c("aut", "cre"))
+Description: Installs an R package (including its dependencies) provided as a tarball and
+    executes its `main()` function
+Depends: R (>= 3.4.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    remotes
+RoxygenNote: 6.1.1
